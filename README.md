@@ -1,6 +1,6 @@
 # Student Book Service Client
 The **student-book-service-client** is a Java application that shows how to interact with **student-book-service** using its REST API. 
-![client-server](images/client-server.png)
+![client-server](client-server.png)
 
 ## Overview
 The *student-book-service-client* is a console application written in Java that allows a user to select one of secral REST methods supported by the **student-book-service-service**. 
@@ -64,7 +64,7 @@ In particular it uses the **Spring Boot** framework. For more information, see [
 
 1. In Eclipse, right click on the **student-book-service** server app.
 1. From the drop down menu select **Run As->Spring Boot App**, as shon in the following figure.
- <img src="images/student-book-server-run.png" alt="server run" width="400" align="inline"></img>
+ <img src="student-book-server-run.png" alt="server run" width="400" align="inline"></img>
 3. If the port 8282 on which the service must run is busy perform the following steps (on Mac):
 
 		>> sudo lsof -i tcp:8282 /* display the processes running on port 8282 */
@@ -78,7 +78,7 @@ In particular it uses the **Spring Boot** framework. For more information, see [
 4. From the drop-down menu select on the **student-book-service** server app.
 5. Click **Next**.
 5. In the displayed *Runnable JAR File Specification* enter launch configuration information you defined in Eclipse to lunch the app. Also, enter the loaction where to export the JAR. Finally, check *Package required libraries...* 
-<img src="images/student-book-client-jar.png" alt="client jar" width="300" height="300" align="center"></img>
+<img src="student-book-client-jar.png" alt="client jar" width="300" height="300" align="center"></img>
 6. Open a terminal window and execute a command similar to the following:
 
 		java -jar studentbook.jar
