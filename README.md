@@ -6,7 +6,7 @@ The **student-book-service-client** is a Java application that shows how to inte
 The *student-book-service-client* is a console application written in Java that allows a user to select one of secral REST methods supported by the **student-book-service-service**. 
 The first time the user starts the application she is presented with the following menu of possible choices:
 
-![student-book-service-client-menu](images/student-book-service-client-menu.png)
+![student-book-service-client-menu](student-book-service-client-menu.png)
 
 For example, if the user enter **ga** (get all), the client app issues a REST GET call to the service which returns the stored information for all students, such as:
 
@@ -50,7 +50,7 @@ To build the client app you need the following:
 ## Client Details
 The student-book-service-client is a console application written in Java that allows a user to select one of secral REST methods supported by the **student-book-service-service**. 
 The following is the client class diagram:
-![student-book-service-client](images/student-book-service-client.gif)
+![student-book-service-client](student-book-service-client.gif)
 
 ### Client Architectural Elements
 
