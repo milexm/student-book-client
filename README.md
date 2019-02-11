@@ -39,11 +39,7 @@ To build the client app you need the following:
 - [JDK 1.8+](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 <div style="background-color:lightblue">📝You can download the
-<ul>
-	<li><b>student-book-client</b> project on GitHub at this loaction: <a href="" _target="_blank">TBD</a>
-	</li>
-	<li><b>student-book-service</b> project on GitHub at this loaction: <a href="*" _target="_blank">TBD</a></li>
-</ul>
+<b>student-book-service</b> project on GitHub at this loaction: <a href="https://github.com/milexm/student-book-service" _target="_blank">https://github.com/milexm/student-book-service</a>.
 </div>
 
 
